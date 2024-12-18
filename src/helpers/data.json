@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "transactionAmount": 1500,
+      "transactionDate": "2024-12-18",
+      "totalConductedLessons": 2,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 500,
+      "transactionDate": "2024-11-25",
+      "totalConductedLessons": 5,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 1000,
+      "transactionDate": "2025-06-04",
+      "totalConductedLessons": 1,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 800,
+      "transactionDate": "2024-10-25",
+      "totalConductedLessons": 1,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 1600,
+      "transactionDate": "2024-11-16",
+      "totalConductedLessons": 3,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 200,
+      "transactionDate": "2025-01-03",
+      "totalConductedLessons": 0,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 750,
+      "transactionDate": "2025-02-25",
+      "totalConductedLessons": 4,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 1750,
+      "transactionDate": "2025-02-15",
+      "totalConductedLessons": 1,
+      "totalSubstitutedLessons": 1
+    },
+    {
+      "transactionAmount": 2000,
+      "transactionDate": "2024-12-10",
+      "totalConductedLessons": 2,
+      "totalSubstitutedLessons": 2
+    }
+  ]
+}
