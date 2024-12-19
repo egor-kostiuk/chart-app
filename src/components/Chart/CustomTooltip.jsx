@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 export const CustomTooltip = ({ active, payload, label }) => {
-	if (active && payload && payload.length) {
+	if (active && payload && payload.length) { // TODO: responsive size 
 		return (
-			<div className="p-3 bg-slate-700 flex flex-col gap-4 rounded-md">
+			<div className="p-3 bg-slate-700 flex flex-col gap-2 rounded-md">
 				<p className="text-medium text-base ">{label}</p>
 				<p className="text-sm text-indigo-400">
 					Revenue:

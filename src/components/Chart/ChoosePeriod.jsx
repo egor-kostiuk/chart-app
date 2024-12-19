@@ -9,7 +9,7 @@ export const ChoosePeriod = ({ period, onChange }) => {
 				Choose period:
 			</label>
 			<select
-				className="bg-slate-800 text-white py-2 px-4 rounded-md border-2 border-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+				className="cursor-pointer bg-slate-800 text-white py-2 px-4 rounded-md border-2 border-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 				id="period-select"
 				value={period}
 				onChange={(e) => onChange(e.target.value)}

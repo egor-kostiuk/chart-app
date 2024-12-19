@@ -12,9 +12,9 @@ import {
 } from 'recharts'
 
 import { DataFormatter } from '../../utils/DataFormatter'
+import { validateData } from '../../utils/ValidateData'
 import { ChoosePeriod } from './ChoosePeriod'
 import { CustomTooltip } from './CustomTooltip'
-import { validateData } from '../../utils/ValidateData'
 import data from '../../helpers/data.json'
 
 export const ChartComponent = () => {
@@ -71,11 +71,17 @@ export const ChartComponent = () => {
 									orientation="left"
 									tickFormatter={value => `₴${value.toLocaleString()}`}
 								/>
-								<Legend />
+								<Legend
+									formatter={value => (
+										<span className="cursor-pointer hover:opacity-50 transition ease-in-out">
+											{value}
+										</span>
+									)}
+								/>
 								<Bar
 									name="revenue"
 									dataKey="amount"
-									fill="#4e3cab"
+									fill="#6b57d2"
 									yAxisId="left"
 								/>
 								<YAxis
@@ -92,6 +98,7 @@ export const ChartComponent = () => {
 									dataKey="conductedLessons"
 									stroke="#82ca9d"
 									activeDot={{ r: 4 }}
+                  hide={false} // TODO: onClick hide line chart
 								/>
 								<Line
 									name="substituted lessons"
