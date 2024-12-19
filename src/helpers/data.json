@@ -9,7 +9,7 @@
     {
       "transactionAmount": 500,
       "transactionDate": "2024-11-25",
-      "totalConductedLessons": 5,
+      "totalConductedLessons": 1,
       "totalSubstitutedLessons": 1
     },
     {
@@ -28,30 +28,30 @@
       "transactionAmount": 1600,
       "transactionDate": "2024-11-16",
       "totalConductedLessons": 3,
-      "totalSubstitutedLessons": 1
+      "totalSubstitutedLessons": 0
     },
     {
       "transactionAmount": 200,
       "transactionDate": "2025-01-03",
       "totalConductedLessons": 0,
-      "totalSubstitutedLessons": 1
+      "totalSubstitutedLessons": 0
     },
     {
       "transactionAmount": 750,
       "transactionDate": "2025-02-25",
-      "totalConductedLessons": 4,
-      "totalSubstitutedLessons": 1
+      "totalConductedLessons": 1,
+      "totalSubstitutedLessons": 0
     },
     {
       "transactionAmount": 1750,
       "transactionDate": "2025-02-15",
-      "totalConductedLessons": 1,
-      "totalSubstitutedLessons": 1
+      "totalConductedLessons": 3,
+      "totalSubstitutedLessons": 2
     },
     {
       "transactionAmount": 2000,
       "transactionDate": "2024-12-10",
-      "totalConductedLessons": 2,
+      "totalConductedLessons": 4,
       "totalSubstitutedLessons": 2
     }
   ]
