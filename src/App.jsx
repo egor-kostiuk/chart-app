@@ -1,11 +1,11 @@
 import './index.css'
 
-import { ChartComponent } from './components/Chart/ChartComponent'
+import { Chart } from './components/Chart/index'
 
 export const App = () => {
 	return (
-		<div>
-      <ChartComponent/>
-		</div>
+		<>
+      <Chart/>
+		</>
 	)
 }
